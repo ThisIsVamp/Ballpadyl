@@ -1,3 +1,4 @@
+name: zmk-keyboard-<ballpadyl>
 build:
   settings:
-    board_root: .
+    board_root: 
