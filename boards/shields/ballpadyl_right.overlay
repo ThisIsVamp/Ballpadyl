@@ -15,3 +15,7 @@
 //        , <&pro_micro 13 GPIO_ACTIVE_HIGH>
 //        ;
 //};
+
+&physical_layout0 {
+    transform = <&default_transform>; // Label of the matrix transform this layout uses
+};
