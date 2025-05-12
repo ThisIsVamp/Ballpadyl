@@ -1,17 +1,19 @@
 #include "ballpadyl.dtsi" // The shared dtsi file is included in the overlay
 
-// Label of the kscan node in the dtsi
-&kscan0 {
-    col-gpios
-        = <&pro_micro 6 GPIO_ACTIVE_HIGH>
-        , <&pro_micro 8 GPIO_ACTIVE_HIGH>
-        , <&pro_micro 9 GPIO_ACTIVE_HIGH>
-        , <&gpio1 1 GPIO_ACTIVE_HIGH>
-        , <&gpio1 2 GPIO_ACTIVE_HIGH>
-        , <&gpio1 7 GPIO_ACTIVE_HIGH>
-        ;
-};
-
 &physical_layout0 {
     transform = <&default_transform>; // Label of the matrix transform this layout uses
 };
+
+// Label of the kscan node in the dtsi
+&kscan0 {
+    col-gpios
+        = <&pro_micro 1 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
+        , <&pro_micro 0 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
+        , <&pro_micro 2 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
+        , <&pro_micro 3 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
+        , <&pro_micro 4 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
+        , <&pro_micro 5 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
+        ;
+};
+
+
