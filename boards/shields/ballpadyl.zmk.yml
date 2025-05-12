@@ -4,10 +4,8 @@ name: Ballpadyl
 type: shield
 url: https://github.com/ThisIsVamp/Ballpadyl
 requires: [pro_micro]
-// exposes:
 features:
   - keys
-//  - pointer
 siblings:
   - ballpadyl_left
   - ballpadyl_right
