@@ -1,0 +1,86 @@
+#include <behaviors.dtsi>
+#include <dt-bindings/zmk/keys.h>
+
+#define DEFAULT 0
+#define LOWER   1
+#define RAISE   2
+#define GAME    3
+#define MOUSE   4
+
+/ {
+    keymap {
+        compatible = "zmk,keymap";
+
+        default_layer { // Layer DEFAULT
+            // -------------------------------------
+            // |     F1    |     F2    |     F3    |     F4    |     F5    |     5     |     6     |     F6    |     F7    |     F8    |     F9    |     F10   |
+            // |    ESC    |     1     |     2     |     3     |     4     |     T     |     Y     |     7     |     8     |     9     |     0     |     =+    |
+            // |    TAB    |     Q     |     W     |     E     |     R     |     G     |     H     |     U     |     I     |     O     |     P     |     -_    |
+            // |   SHIFT   |     A     |    ALTS   |   CRTLD   |   SHFTF   |     B     |     N     |   SHFTJ   |   CTRLK   |    ALTL   |     ;     |     @'    |
+            // |    CTRL   |     Z     |     X     |     C     |     V     |    CAPS   |    ZMK    |     M     |     ,     |     .     |     /     |     #~    |
+            // |    SPC    |    TAB    |    WIN    |    LAY2   |    ALT    |    GAME   |    LAY3   |    SHFT   |    PIPE   |    PTSCN  |    ENT    |    BSPC   |
+            bindings = <
+                &kp F1     &kp F2      &kp F3      &kp F4       &kp F5       &kp N5                  &kp N6          &kp F6       &kp F7         &kp F8      &kp F9     &kp F10
+                &kp ESC    &kp N1      &kp N2      &kp N3       &kp N4       &kp T                   &kp Y           &kp N7       &kp N8         &kp N9      &kp N0     &kp EQUAL
+                &kp TAB    &kp Q       &kp W       &kp E        &kp R        &kp G                   &kp H           &kp U        &kp I          &kp O       &kp P      &kp MINUS
+                &kp LSHFT  &kp A       &lt LALT S  &lt LCTRL D  &lt LSHFT F  &kp B                   &kp N           &lt RSHFT J  &lt RCTRL K    &lt RALT L  &kp SEMI   &kp APOS
+                &kp LCTRL  &kp Z       &kp X       &kp C        &kp V        &kp CAPS                &studio_unlock  &kp M        &kp COMM       &kp DOT     &kp FSLH   &kp NUHS
+                &kp SPACE  &lt 1 LTAB  &kp LGUI    &mo 1        &kp LALT     &tog GAME               &mo 2           &kp LSHFT    &kp PIPE       &kp PSCRN   &lt 2 RET  &kp BSPC
+            >;
+        };
+        
+        lower_layer { // Layer LOWER
+            // -------------------------------------
+            // |     F1    |     F2    |     F3    |     F4    |     F5    |     5     |     6     |     F6    |     F7    |     F8    |     F9    |     F10   |
+            // |    ESC    |     1     |     2     |     3     |     4     |     T     |     Y     |     7     |     8     |     9     |     0     |     =+    |
+            // |    TAB    |     Q     |     W     |     E     |     R     |     G     |     H     |     U     |     I     |     O     |     P     |     -_    |
+            // |   SHIFT   |     A     |    ALTS   |   CRTLD   |   SHFTF   |     B     |     N     |   SHFTJ   |   CTRLK   |    ALTL   |     ;     |     @'    |
+            // |    CTRL   |     Z     |     X     |     C     |     V     |    CAPS   |    ZMK    |     M     |     ,     |     .     |     /     |     #~    |
+            // |    SPC    |    TAB    |    WIN    |    LAY2   |    ALT    |    GAME   |    LAY3   |    SHFT   |    PIPE   |    PTSCN  |    ENT    |    BSPC   |
+            bindings = <
+                &kp F1     &kp F2      &kp F3      &kp F4       &kp F5       &kp N5                  &kp N6          &kp F6       &kp F7         &kp F8      &kp F9     &kp F10
+                &kp ESC    &kp N1      &kp N2      &kp N3       &kp N4       &kp T                   &kp Y           &kp N7       &kp N8         &kp N9      &kp N0     &kp EQUAL
+                &kp TAB    &kp Q       &kp W       &kp E        &kp R        &kp G                   &kp H           &kp U        &kp I          &kp O       &kp P      &kp MINUS
+                &kp LSHFT  &kp A       &lt LALT S  &lt LCTRL D  &lt LSHFT F  &kp B                   &kp N           &lt RSHFT J  &lt RCTRL K    &lt RALT L  &kp SEMI   &kp APOS
+                &kp LCTRL  &kp Z       &kp X       &kp C        &kp V        &kp CAPS                &studio_unlock  &kp M        &kp COMM       &kp DOT     &kp FSLH   &kp NUHS
+                &kp SPACE  &lt 1 LTAB  &kp LGUI    &mo 1        &kp LALT     &tog GAME               &mo 2           &kp LSHFT    &kp PIPE       &kp PSCRN   &lt 2 RET  &kp BSPC
+            >;
+        };
+        upper_layer { // Layer UPPER
+            // -------------------------------------
+            // |     F1    |     F2    |     F3    |     F4    |     F5    |     5     |     6     |     F6    |     F7    |     F8    |     F9    |     F10   |
+            // |    ESC    |     1     |     2     |     3     |     4     |     T     |     Y     |     7     |     8     |     9     |     0     |     =+    |
+            // |    TAB    |     Q     |     W     |     E     |     R     |     G     |     H     |     U     |     I     |     O     |     P     |     -_    |
+            // |   SHIFT   |     A     |    ALTS   |   CRTLD   |   SHFTF   |     B     |     N     |   SHFTJ   |   CTRLK   |    ALTL   |     ;     |     @'    |
+            // |    CTRL   |     Z     |     X     |     C     |     V     |    CAPS   |    ZMK    |     M     |     ,     |     .     |     /     |     #~    |
+            // |    SPC    |    TAB    |    WIN    |    LAY2   |    ALT    |    GAME   |    LAY3   |    SHFT   |    PIPE   |    PTSCN  |    ENT    |    BSPC   |
+            bindings = <
+                &kp F1     &kp F2      &kp F3      &kp F4       &kp F5       &kp N5                  &kp N6          &kp F6       &kp F7         &kp F8      &kp F9     &kp F10
+                &kp ESC    &kp N1      &kp N2      &kp N3       &kp N4       &kp T                   &kp Y           &kp N7       &kp N8         &kp N9      &kp N0     &kp EQUAL
+                &kp TAB    &kp Q       &kp W       &kp E        &kp R        &kp G                   &kp H           &kp U        &kp I          &kp O       &kp P      &kp MINUS
+                &kp LSHFT  &kp A       &lt LALT S  &lt LCTRL D  &lt LSHFT F  &kp B                   &kp N           &lt RSHFT J  &lt RCTRL K    &lt RALT L  &kp SEMI   &kp APOS
+                &kp LCTRL  &kp Z       &kp X       &kp C        &kp V        &kp CAPS                &studio_unlock  &kp M        &kp COMM       &kp DOT     &kp FSLH   &kp NUHS
+                &kp SPACE  &lt 1 LTAB  &kp LGUI    &mo 1        &kp LALT     &tog GAME               &mo 2           &kp LSHFT    &kp PIPE       &kp PSCRN   &lt 2 RET  &kp BSPC
+            >;
+        };
+        
+        game_layer { // Layer GAME
+            // -------------------------------------
+            // |     F1    |     F2    |     F3    |     F4    |     F5    |     4     |           |     F6    |     F7    |     F8    |     F9    |     F10   |
+            // |           |           |     1     |     2     |     3     |     R     |           |           |           |           |           |           |
+            // |           |    ESC    |     Q     |     W     |     E     |     F     |           |    MMUP   |           |           |           |           |
+            // |           |   SHIFT   |     A     |     S     |     D     |     V     |           |    LMSE   |    RMSE   |    MMSE   |           |           |
+            // |           |    CTRL   |     Z     |     X     |     C     |     M     |    ZMK    |    MMDN   |           |           |           |           |
+            // |    SPC    |    CTRL   |    WIN    |           |    ALT    |    GAME   |           |    SHFT   |           |    PTSCN  |    ENT    |    BSPC   |
+            bindings = <
+                &kp F1     &kp F2      &kp F3      &kp F4       &kp F5       &kp N4                  &trans          &kp F6       &kp F7         &kp F8      &kp F9     &kp F10
+                &trans     &trans      &kp N1      &kp N2       &kp N3       &kp R                   &trans          &kp N7       &kp N8         &kp N9      &kp N0     &trans
+                &trans     &kp ESC     &kp Q       &kp W        &kp R        &kp G                   &trans          &trans       &trans         &trans      &trans     &trans
+                &trans     &kp LSHFT   &lt A       &lt S        &lt D        &kp V                   &trans          &trans       &trans         &trans      &trans     &trans
+                &trans     &kp LCTRL   &kp Z       &kp X        &kp C        &kp M                   &studio_unlock  &trans       &trans         &trans      &trans     &trans
+                &kp SPACE  &kp LCTRL   &kp LGUI    &trans       &kp LALT     &tog GAME               &trans          &kp LSHFT    &trans         &kp PSCRN   &kp RET    &kp BSPC
+            >;
+        };
+        
+    };
+ };
