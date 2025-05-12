@@ -24,7 +24,7 @@
                 &kp ESC    &kp N1      &kp N2      &kp N3       &kp N4       &kp T                   &kp Y           &kp N7       &kp N8         &kp N9      &kp N0     &kp EQUAL
                 &kp TAB    &kp Q       &kp W       &kp E        &kp R        &kp G                   &kp H           &kp U        &kp I          &kp O       &kp P      &kp MINUS
                 &kp LSHFT  &kp A       &lt LALT S  &lt LCTRL D  &lt LSHFT F  &kp B                   &kp N           &lt RSHFT J  &lt RCTRL K    &lt RALT L  &kp SEMI   &kp APOS
-                &kp LCTRL  &kp Z       &kp X       &kp C        &kp V        &kp CAPS                &studio_unlock  &kp M        &kp COMM       &kp DOT     &kp FSLH   &kp NUHS
+                &kp LCTRL  &kp Z       &kp X       &kp C        &kp V        &kp CAPS                &studio_unlock  &kp M        &kp COMMA      &kp DOT     &kp FSLH   &kp NUHS
                 &kp SPACE  &lt 1 LTAB  &kp LGUI    &mo 1        &kp LALT     &tog GAME               &mo 2           &kp LSHFT    &kp PIPE       &kp PSCRN   &lt 2 RET  &kp BSPC
             >;
         };
