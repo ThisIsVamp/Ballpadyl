@@ -1,0 +1,13 @@
+file_format: "1"
+id: ballpadyl
+name: Ballpadyl
+type: shield
+url: https://github.com/thisisvamp/ballpadyl/
+requires: [pro_micro]
+// exposes:
+features:
+  - keys
+//  - pointer
+siblings:
+  - ballpadyl_left
+  - ballpadyl_right
