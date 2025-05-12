@@ -81,6 +81,18 @@
                 &kp SPACE  &kp LCTRL   &kp LGUI    &trans       &kp LALT     &tog GAME               &trans          &kp LSHFT    &trans         &kp PSCRN   &kp RET    &kp BSPC
             >;
         };
+
+        extra1 {
+            status = "reserved";
+        };
+
+        extra2 {
+            status = "reserved";
+        };
+
+        extra3 {
+            status = "reserved";
+        };
         
     };
  };
