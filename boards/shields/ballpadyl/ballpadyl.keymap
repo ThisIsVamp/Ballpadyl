@@ -76,7 +76,7 @@
                 &kp F1     &kp F2      &kp F3      &kp F4       &kp F5       &kp N4                  &trans          &kp F6       &kp F7         &kp F8      &kp F9     &kp F10
                 &trans     &trans      &kp N1      &kp N2       &kp N3       &kp R                   &trans          &kp N7       &kp N8         &kp N9      &kp N0     &trans
                 &trans     &kp ESC     &kp Q       &kp W        &kp R        &kp G                   &trans          &trans       &trans         &trans      &trans     &trans
-                &trans     &kp LSHFT   &lt A       &lt S        &lt D        &kp V                   &trans          &trans       &trans         &trans      &trans     &trans
+                &trans     &kp LSHFT   &kp A       &kp S        &kp D        &kp V                   &trans          &trans       &trans         &trans      &trans     &trans
                 &trans     &kp LCTRL   &kp Z       &kp X        &kp C        &kp M                   &kp MINUS       &trans       &trans         &trans      &trans     &trans
                 &kp SPACE  &kp LCTRL   &kp LGUI    &trans       &kp LALT     &tog GAME               &trans          &kp LSHFT    &trans         &kp PSCRN   &kp RET    &kp BSPC
             >;
