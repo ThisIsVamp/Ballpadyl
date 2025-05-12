@@ -2,7 +2,7 @@ file_format: "1"
 id: ballpadyl
 name: Ballpadyl
 type: shield
-url: https://github.com/thisisvamp/ballpadyl/
+url: https://github.com/ThisIsVamp/Ballpadyl
 requires: [pro_micro]
 // exposes:
 features:
