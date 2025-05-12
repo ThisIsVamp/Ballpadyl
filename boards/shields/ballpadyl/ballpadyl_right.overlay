@@ -5,16 +5,16 @@
 };
 
 // Label of the kscan node in the dtsi
-//&kscan0 {
-//    row-gpios
-//        = <&pro_micro 10 GPIO_ACTIVE_HIGH>
-//        , <&pro_micro 11 GPIO_ACTIVE_HIGH>
-//        , <&pro_micro 13 GPIO_ACTIVE_HIGH>
-//        , <&pro_micro 13 GPIO_ACTIVE_HIGH>
-//        , <&pro_micro 13 GPIO_ACTIVE_HIGH>
-//        , <&pro_micro 13 GPIO_ACTIVE_HIGH>
-//        ;
-//};
+&kscan0 {
+    row-gpios
+        = <&pro_micro 6 GPIO_ACTIVE_HIGH>
+        , <&pro_micro 8 GPIO_ACTIVE_HIGH>
+        , <&pro_micro 9 GPIO_ACTIVE_HIGH>
+        , <&gpio1 1 GPIO_ACTIVE_HIGH>
+        , <&gpio1 2 GPIO_ACTIVE_HIGH>
+        , <&gpio1 7 GPIO_ACTIVE_HIGH>
+        ;
+};
 
 &physical_layout0 {
     transform = <&default_transform>; // Label of the matrix transform this layout uses

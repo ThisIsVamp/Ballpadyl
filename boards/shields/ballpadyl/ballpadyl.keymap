@@ -25,7 +25,7 @@
                 &kp TAB    &kp Q       &kp W       &kp E        &kp R        &kp G                   &kp H           &kp U        &kp I          &kp O       &kp P      &kp MINUS
                 &kp LSHFT  &kp A       &lt LALT S  &lt LCTRL D  &lt LSHFT F  &kp B                   &kp N           &lt RSHFT J  &lt RCTRL K    &lt RALT L  &kp SEMI   &kp APOS
                 &kp LCTRL  &kp Z       &kp X       &kp C        &kp V        &kp CAPS                &kp M           &kp M        &kp COMMA      &kp DOT     &kp FSLH   &kp NUHS
-                &kp SPACE  &lt 1 LTAB  &kp LGUI    &mo 1        &kp LALT     &tog GAME               &mo 2           &kp LSHFT    &kp PIPE       &kp PSCRN   &lt 2 RET  &kp BSPC
+                &kp SPACE  &lt 1 TAB   &kp LGUI    &mo 1        &kp LALT     &tog GAME               &mo 2           &kp LSHFT    &kp PIPE       &kp PSCRN   &lt 2 RET  &kp BSPC
             >;
         };
         
@@ -42,8 +42,8 @@
                 &kp ESC    &kp N1      &kp N2      &kp N3       &kp N4       &kp T                   &kp Y           &kp N7       &kp N8         &kp N9      &kp N0     &kp EQUAL
                 &kp TAB    &kp Q       &kp W       &kp E        &kp R        &kp G                   &kp H           &kp U        &kp I          &kp O       &kp P      &kp MINUS
                 &kp LSHFT  &kp A       &lt LALT S  &lt LCTRL D  &lt LSHFT F  &kp B                   &kp N           &lt RSHFT J  &lt RCTRL K    &lt RALT L  &kp SEMI   &kp APOS
-                &kp LCTRL  &kp Z       &kp X       &kp C        &kp V        &kp CAPS                &studio_unlock  &kp M        &kp COMM       &kp DOT     &kp FSLH   &kp NUHS
-                &kp SPACE  &lt 1 LTAB  &kp LGUI    &mo 1        &kp LALT     &tog GAME               &mo 2           &kp LSHFT    &kp PIPE       &kp PSCRN   &lt 2 RET  &kp BSPC
+                &kp LCTRL  &kp Z       &kp X       &kp C        &kp V        &kp CAPS                &kp M           &kp M        &kp COMMA       &kp DOT     &kp FSLH   &kp NUHS
+                &kp SPACE  &lt 1 TAB   &kp LGUI    &mo 1        &kp LALT     &tog GAME               &mo 2           &kp LSHFT    &kp PIPE       &kp PSCRN   &lt 2 RET  &kp BSPC
             >;
         };
         upper_layer { // Layer UPPER
@@ -59,8 +59,8 @@
                 &kp ESC    &kp N1      &kp N2      &kp N3       &kp N4       &kp T                   &kp Y           &kp N7       &kp N8         &kp N9      &kp N0     &kp EQUAL
                 &kp TAB    &kp Q       &kp W       &kp E        &kp R        &kp G                   &kp H           &kp U        &kp I          &kp O       &kp P      &kp MINUS
                 &kp LSHFT  &kp A       &lt LALT S  &lt LCTRL D  &lt LSHFT F  &kp B                   &kp N           &lt RSHFT J  &lt RCTRL K    &lt RALT L  &kp SEMI   &kp APOS
-                &kp LCTRL  &kp Z       &kp X       &kp C        &kp V        &kp CAPS                &studio_unlock  &kp M        &kp COMM       &kp DOT     &kp FSLH   &kp NUHS
-                &kp SPACE  &lt 1 LTAB  &kp LGUI    &mo 1        &kp LALT     &tog GAME               &mo 2           &kp LSHFT    &kp PIPE       &kp PSCRN   &lt 2 RET  &kp BSPC
+                &kp LCTRL  &kp Z       &kp X       &kp C        &kp V        &kp CAPS                &kp M           &kp M        &kp COMMA      &kp DOT     &kp FSLH   &kp NUHS
+                &kp SPACE  &lt 1 TAB   &kp LGUI    &mo 1        &kp LALT     &tog GAME               &mo 2           &kp LSHFT    &kp PIPE       &kp PSCRN   &lt 2 RET  &kp BSPC
             >;
         };
         
@@ -77,7 +77,7 @@
                 &trans     &trans      &kp N1      &kp N2       &kp N3       &kp R                   &trans          &kp N7       &kp N8         &kp N9      &kp N0     &trans
                 &trans     &kp ESC     &kp Q       &kp W        &kp R        &kp G                   &trans          &trans       &trans         &trans      &trans     &trans
                 &trans     &kp LSHFT   &lt A       &lt S        &lt D        &kp V                   &trans          &trans       &trans         &trans      &trans     &trans
-                &trans     &kp LCTRL   &kp Z       &kp X        &kp C        &kp M                   &studio_unlock  &trans       &trans         &trans      &trans     &trans
+                &trans     &kp LCTRL   &kp Z       &kp X        &kp C        &kp M                   &kp MINUS       &trans       &trans         &trans      &trans     &trans
                 &kp SPACE  &kp LCTRL   &kp LGUI    &trans       &kp LALT     &tog GAME               &trans          &kp LSHFT    &trans         &kp PSCRN   &kp RET    &kp BSPC
             >;
         };
